@@ -39,10 +39,11 @@ function TaskListItem(props) {
           <span className="description">{editingValue || label}</span>
           <span className="created">{formatDistanceToNow(timeData, { includeSeconds: true })}</span>
         </label>
-        <button type="button" className="icon  icon-edit" onClick={clickEdit} />
-        <button type="button" className="icon  icon-destroy" onClick={onDeleted} />
+        <button type="button" id={id} className="icon  icon-edit" onClick={clickEdit} />
+        <button type="button" id={id} className="icon  icon-destroy" onClick={onDeleted} />
       </div>
       <input
+        id={id}
         className="edit"
         type="text"
         onChange={handelChange}
