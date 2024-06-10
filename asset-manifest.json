@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kata-todo/static/css/main.dfd5ddbb.css",
+    "main.js": "/kata-todo/static/js/main.144d7f0a.js",
+    "index.html": "/kata-todo/index.html",
+    "main.dfd5ddbb.css.map": "/kata-todo/static/css/main.dfd5ddbb.css.map",
+    "main.144d7f0a.js.map": "/kata-todo/static/js/main.144d7f0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfd5ddbb.css",
+    "static/js/main.144d7f0a.js"
+  ]
+}
