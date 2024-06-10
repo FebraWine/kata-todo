@@ -11,7 +11,7 @@ import './ComponentsCss/index.css'
 const container = document.getElementById('root')
 const wrapper = createRoot(container)
 
-class App extends React.PureComponent {
+export default class App extends React.PureComponent {
   constructor() {
     super()
 
